@@ -64,6 +64,7 @@ import { primewireScraper } from './sources/primewire';
 import { ridooMoviesScraper } from './sources/ridomovies';
 import { smashyStreamScraper } from './sources/smashystream';
 import { soaperTvScraper } from './sources/soapertv';
+import { vadapavScraper } from './sources/vadapav';
 import { vidSrcToScraper } from './sources/vidsrcto';
 import { warezcdnScraper } from './sources/warezcdn';
 
@@ -71,6 +72,7 @@ export function gatherAllSources(): Array<Sourcerer> {
   // all sources are gathered here
   return [
     catflixScraper,
+    vadapavScraper,
     flixhqScraper,
     remotestreamScraper,
     kissAsianScraper,
